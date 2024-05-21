@@ -1,0 +1,42 @@
+/* Introduction.css */
+
+.introduction {
+    background-color: #ffffff;
+    padding: 11rem 0; /* Increased padding to make the section larger */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .intro-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .intro-text {
+    flex: 1; /* Take remaining space */
+    text-align: left;
+    padding-right: 5rem; /* Add some spacing between text and image */
+  }
+  
+  .intro-text h2 {
+    color: #d100d1;
+    font-size: 3rem; /* Increased font size for the name */
+  }
+  
+  .intro-text p {
+    font-size: 1.6rem; /* Increased font size for the description */
+  }
+  
+  .profile-picture img {
+    border-radius: 50%;
+    width: 200px; /* Increased width of the image */
+    height: 200px; /* Increased height of the image */
+    object-fit: cover;
+    margin-top: 1rem;
+  }
+  
+  
